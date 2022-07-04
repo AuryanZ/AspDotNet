@@ -30,7 +30,7 @@ User -(orders)-> Router -(rotes[name, url]-> Controller -(Order List)-> Model -(
 Database ---> Model ---> Controller ---> View
 
 ## short cut
-prop + 2x TAB: Generate a propoty 
+prop + 2x TAB: Generate a propoty  
 ctor + 2x TAP: Generate a constructor 
 
 ## Database
