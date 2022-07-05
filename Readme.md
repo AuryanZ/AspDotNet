@@ -2,17 +2,19 @@
 
 ## Tutorials
 ### ASP.Net
-https://www.youtube.com/watch?v=BfEjDD8mWYg&ab_channel=freeCodeCamp.org 
+https://www.youtube.com/watch?v=BfEjDD8mWYg&ab_channel=freeCodeCamp.org (JokesWebApp)  
 https://www.youtube.com/watch?v=pIz7VZDAubo&list=PLhPyEFL5u-i2ShGqmuP3uDdSy06hzBzdo&index=4&ab_channel=ProgrammingwithProfessorSluiter 
 
 ### REST API
-https://www.youtube.com/watch?v=fmvcAzHpsk8&ab_channel=LesJackson 
+https://www.youtube.com/watch?v=fmvcAzHpsk8&ab_channel=LesJackson (Commander)  
 
 ## Packages
 EntityFrameworkCore: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.6 
 EntityFrameworkCore.Design: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2  
 EntityFrameworkCore.SqlServer: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/7.0.0-preview.5.22302.2  
 AutoMapper(DependencyInjection): https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection  
+JsonPatch: https://www.nuget.org/packages/Microsoft.AspNetCore.JsonPatch/7.0.0-preview.5.22303.8  
+NewtonsoftJson: https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.0-preview.5.22303.8  
 Dotnet ef Tool packages: dotnet tool install --global dotnet-ef  
 
 ## Models Views and Controllers(MVC)
@@ -30,7 +32,7 @@ User -(orders)-> Router -(rotes[name, url]-> Controller -(Order List)-> Model -(
 Database ---> Model ---> Controller ---> View
 
 ## short cut
-prop + 2x TAB: Generate a propoty  
+prop + 2x TAB: Generate a propoty 
 ctor + 2x TAP: Generate a constructor 
 
 ## Database
@@ -40,4 +42,15 @@ ctor + 2x TAP: Generate a constructor
 | Traditional method of database access | Database is updated using migrations | 
 | Write your own SQL statements | Entity Framework is Microsoft's ORM |
 | Database managers(DBA's) ususally perfer DAOs | Simple for basic applications |
-| Provides more visibility on finding problems |  |
+| Provides more visibility on finding problems |  |  
+
+## Tips
+### PUT Request:
+* "Full" Update - need to supply the entire object
+* Inefficient (and error prone for large objects)
+* Not used so much now, PATCH is the favoured approach
+
+### JSON Patch Standard
+JSON Patch standard specifiedd in RFC 6902  
+6 Operations: Add / Remove / Replace / Copy / Move / Test  
+
