@@ -1,13 +1,5 @@
 # Exercises for ASP.Net
 
-## Tutorials
-### ASP.Net
-https://www.youtube.com/watch?v=BfEjDD8mWYg&ab_channel=freeCodeCamp.org (JokesWebApp)  
-https://www.youtube.com/watch?v=pIz7VZDAubo&list=PLhPyEFL5u-i2ShGqmuP3uDdSy06hzBzdo&index=4&ab_channel=ProgrammingwithProfessorSluiter 
-
-### REST API
-https://www.youtube.com/watch?v=fmvcAzHpsk8&ab_channel=LesJackson (Commander)  
-
 ## Packages
 EntityFrameworkCore: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/6.0.6 
 EntityFrameworkCore.Design: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2  
